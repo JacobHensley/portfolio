@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 body {
-    background-color: #05070c;
+    background-color: theme('colors.background');
     box-sizing: border-box;
     overflow-x: hidden;
+}
+
+p {
+    color: theme('colors.text');
 }
 
 .gradient-text {
     -webkit-background-clip: text;
     background-clip: text;
 	-webkit-text-fill-color: transparent;
-  }
+}
