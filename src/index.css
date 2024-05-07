@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    scroll-margin-top: 11rem;
+}
+
 body {
     background-color: theme('colors.background');
     box-sizing: border-box;
